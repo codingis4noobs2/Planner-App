@@ -7,7 +7,7 @@ export default function MyCustomWidget() {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    const apiKey = 'c48cbd659dfad8519995077d85893bea';
+    const apiKey = 'YOUR_API_KEY';
 
     const fetchWeatherData = async (latitude, longitude) => {
       try {
